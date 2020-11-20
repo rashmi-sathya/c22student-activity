@@ -14,7 +14,7 @@ function setup(){
         isStatic: true
     }
 
-   object= Bodies.rectangle(200,390,200,20,ground_options);
+   object= Bodies.rectangle(200,390,200,20,object_options);
     World.add(world,object);
 
    
